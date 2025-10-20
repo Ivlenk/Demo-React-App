@@ -1,0 +1,12 @@
+
+import React from 'react';
+import '../styles.css';
+
+export default function Header() {
+	return (
+		<div className="header">
+			<img className="logo" src="images/aklogo.png" alt="Astrocade Kanban" />
+			<h2 className="app-subtitle">Let's get some work done!</h2>
+		</div>
+	);
+}

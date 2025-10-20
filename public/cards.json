@@ -1,0 +1,162 @@
+[
+  {
+    "key": "1",
+    "title": "Architecture Documentation",
+    "type": "docs",
+    "status": "doing",
+    "desc": "Plan and document all details of the application and data structure and request flows and repsonses.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "2",
+    "title": "Set Up Server Environment",
+    "type": "server",
+    "status": "doing",
+    "desc": "Provision hardware, virtual instances, app certificates, and permissions for servers.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "3",
+    "title": "Set-up React App",
+    "type": "ui",
+    "status": "doing",
+    "desc": "Install correct version of Node, npm, and React. Test boilerplate with examples. Begin building routes and components.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "4",
+    "title": "Design Logo",
+    "type": "docs",
+    "status": "doing",
+    "desc": "Layout logo in Adobe Illustrator, use Adobe Photoshop or Affinity Photo to generate semi transparent PNG instance of the logo for various use cases such as Web and Retina displays.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "5",
+    "title": "Design Workflow",
+    "type": "ux",
+    "status": "review",
+    "desc": "Generate personas, user stories, and design workflows based on research for an efficient customer experience. Design is how it works.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "6",
+    "title": "Create Site Mockup",
+    "type": "mocks",
+    "status": "review",
+    "desc": "Make a pixel perfect layout in Sketch, Figma, or Photoshop to show what we will build including some important states and views.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "7",
+    "title": "Build DB",
+    "type": "db",
+    "status": "review",
+    "desc": "Set up secured instance of Mongo DB, MySQL, PostGRESQL, or Oracle. Facilitate secure socket communication for queries and also encrypted storage of data.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "8",
+    "title": "Write Test Data",
+    "type": "ui",
+    "status": "review",
+    "desc": "Set up React testing framework and begin to write basic assertions of expected behaviors.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "9",
+    "title": "Fix Homepage Error",
+    "type": "bug",
+    "status": "done",
+    "desc": "There is an error reported on the homepage on load. Perhaps a missing dependency. Please verify and fix.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "10",
+    "title": "Code React Components",
+    "type": "ui",
+    "status": "done",
+    "desc": "Write react components needed to meet requirements and plan for state sharing and paramter drilling we expect.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "11",
+    "title": "Write Tests",
+    "type": "tests",
+    "status": "done",
+    "desc": "Write test coverage for all components!",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "12",
+    "title": "Migrate DB",
+    "type": "db",
+    "status": "todo",
+    "desc": "Normalize and import DATA from satellite team.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "13",
+    "title": "Add a Datepicker to Cards",
+    "type": "ui",
+    "status": "todo",
+    "desc": "Allow entry of Date within Kanban Card details.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "14",
+    "title": "Fix Issue with Update Api",
+    "type": "bug",
+    "status": "todo",
+    "desc": "Update needs graceful error handling and guidance to user.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "15",
+    "title": "Develop Calendar",
+    "type": "ui",
+    "status": "todo",
+    "desc": "Write calendar view to show cards by date.",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  },
+  {
+    "key": "16",
+    "title": "Update Tests",
+    "type": "tests",
+    "status": "todo",
+    "desc": "Make relevant changes to tests to comply with new framework updates!",
+    "editMode": false,
+    "new": false,
+    "moving": false
+  }
+]
