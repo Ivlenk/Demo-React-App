@@ -357,7 +357,7 @@ function App() {
     newCardData.moving = false;
     const tempCardsForAdd = JSON.parse(JSON.stringify(cards));
     const addIndex = tempCardsForAdd.findIndex(card => card.status === status);
-    if (addIndex >=0 ) {
+    if (addIndex >=-1 ) {
       tempCardsForAdd.splice(addIndex, 0, newCardData);
     }
     setCards(tempCardsForAdd);
