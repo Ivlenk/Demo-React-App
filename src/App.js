@@ -230,6 +230,7 @@ function App() {
   // drag operation upon release of object being dragged
   const stopDrag = (e) => {
     const cardOriginal = JSON.parse(JSON.stringify(originalCard));
+    const cardOriginalStatus = cardOriginal.status;
     let cardData = JSON.parse(JSON.stringify(cards));
 
     if (movi.currentMovableItem && movi.moviConfig) {
@@ -261,7 +262,7 @@ function App() {
       cardData.splice(tempRemoveIndex, 1);
       cardOriginal.status = column;
 
-      if (column === completionColumn) {
+      if (column === completionColumn && column !== cardOriginalStatus) {
         // addAnimation();
         document.getElementById("celebrate").style.visibility="visible";
       }
