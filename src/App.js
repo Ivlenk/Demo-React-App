@@ -62,6 +62,10 @@ function App() {
     setCardTypeFilter(type);
   };
 
+  const matchesNew = (card) => {
+    return (card.new);
+  };
+
   const matchesSearchTerm = (card, searchTerm) => {
     return (
         card.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
@@ -486,6 +490,7 @@ function App() {
   // Process cards into columns after cards are fetched
   useEffect(() => {
     const filteredCards = cards.filter((card) => 
+      matchesNew(card) ||
       matchesCardTypeFilter(card, cardTypeFilter) &&
       matchesSearchTerm(card, searchTerm)
     );
