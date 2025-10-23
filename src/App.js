@@ -66,6 +66,10 @@ function App() {
     return (card.new);
   };
 
+  const matchesEditMode = (card) => {
+    return (card.editMode);
+  };
+
   const matchesSearchTerm = (card, searchTerm) => {
     return (
         card.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
@@ -491,6 +495,7 @@ function App() {
   useEffect(() => {
     const filteredCards = cards.filter((card) => 
       matchesNew(card) ||
+      matchesEditMode(card) ||
       matchesCardTypeFilter(card, cardTypeFilter) &&
       matchesSearchTerm(card, searchTerm)
     );
